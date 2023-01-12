@@ -1,0 +1,30 @@
+<!-- Default position of all html elements is static. This 
+static position says that the html elements should foloow the 
+normal document flow i.e child number1 should come first thene child 
+number 2 and then child number 3 -->
+
+<!-- relative position works almost like static position but it allows us to do a 
+specific thing that static position does not i.e it helps to change the top 
+left right and bottom of the element. (two posible ranges - +)
+Relative helps us to change the element position , relative to the position where it would normally be
+If we change the Top by some parameter, it would not push down the othe elements , as the 
+elements are deatched from document flow.
+ -->
+
+<!-- absolute position removes the element from the document flow and makes it
+independent . This positions it self relative to whole html document initially. 
+To position it inside a particular DIV we need to make the parent div absolute 
+or relative -->
+
+<!-- fixed element positions it self corresponding to the main document . It will stay at the postion 
+mentioned.-->
+
+<!-- fixed element positions it self corresponding to the main document . It will stay at the postion 
+mentioned.-->
+
+<div class="parent">
+  Parent
+  <div class="child child1">C1</div>
+  <div class="child child2">C2</div>
+  <div class="child child3">C3</div>
+</div>
